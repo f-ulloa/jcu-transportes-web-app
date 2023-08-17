@@ -1,0 +1,44 @@
+.container{
+  margin-top: 4rem;
+  height: 80vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.leftContent{
+  background-color: rgb(236, 236, 238);
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  width: 35%;
+}
+
+.rightContent{
+  position: relative;
+  width: 65%;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 24px;  
+  cursor: pointer;
+  outline: none;
+  color: #333;  
+  position: absolute;
+  top: 0; 
+  right: 0; 
+}
